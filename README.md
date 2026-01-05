@@ -5,7 +5,7 @@ Matrix text rain effect for websites. It is written in JavaScript and can be emb
 [See this page for a demo](https://kitsune.cat/matrixjs/index.html)
 
 - **Author**: [LluisE](https://github.com/lluises)
-- **Source**: [https://github.com/lluises/matrixjs](https://github.com/lluises/l1g)
+- **Source**: [https://github.com/lluises/matrixjs](https://github.com/lluises/matrixjs)
 - **Licence**: [https://www.mozilla.org/en-US/MPL/2.0/](https://www.mozilla.org/en-US/MPL/2.0/)
 
 
