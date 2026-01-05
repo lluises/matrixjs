@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Matrix.js - Example</title>
+  <style>
+   body {
+     background-color: #FFF;
+     margin: 0px
+   }
+
+   .matrix-background {
+     position: fixed;
+     display: block;
+     top: 0;
+     left: 0;
+     width: 100vw;
+     height: 100vh;
+     z-index: 0;
+   }
+  </style>
+  <script type="text/javascript" src="matrix.js"></script>
+  <script>
+   function main() {
+     var elem = document.getElementsByClassName('matrix-background')[0];
+     window.matrix = MatrixEffect(elem);
+     window.matrix.set_recolor(true);
+     window.matrix.set_stop_on_blur(true);
+     window.matrix.run();
+   }
+
+   window.onload = main;
+  </script>
+</head>
+<body class="main-page">
+  <div class="matrix-background"></div>
+</body>
+</html>
